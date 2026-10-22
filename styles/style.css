@@ -133,7 +133,7 @@
   --color-text-project-category: #ffffff;
   --color-text-project-description: #222;
   --color-text-project-sidebar: #222;
-  --color-text-project-title: #5200ff;
+  --color-text-project-title: #2d605b;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #5200ff;
@@ -149,7 +149,7 @@
   /* Components */
   --color-bg-full-width: #f5f5f5;
   --color-bg-project-description: #f5f5f5;
-  --color-bg-sidebar-project: orangered;
+  --color-bg-sidebar-project: transparent;
   --color-bg-sidebar-work: lemonchiffon;
   --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
   --color-gradient-project-details: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
@@ -1167,7 +1167,7 @@ a.nav-link-primary:hover {
 .project-details {
   width: 100%;
   padding: var(--padding-small);
-  background: var(--color-gradient-project-details); /* TODO: Remove gradient background if you prefer a simpler design */
+
 }
 
 /* Previous/Next Arrow Styles */
